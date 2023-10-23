@@ -5,31 +5,34 @@ import './css/Projects.css'
 function Projects() {
 
     const [displayProject, setDisplayProject] = useState("project1")
+    const bubLink = <a style={{color: "inherit"}} href="https://www.bubthebandit.com/">Bub The Bandit</a>
 
     const text = {
         project1:{
-            title:"Bub the Bandit",
+            title: bubLink,
             body1:
-            "Bub The Bandit is Lorem ipsum dolor sit amet, consectetur adipiscing elit,\
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In est ante in nibh mauris.\
-            In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.\
-            Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.",
+            "Bub The Bandit is an NFT project my friends and I embarked on\
+            as a means to take our collective abilities to try to establish\
+            ourselves in the crypto space. Although objectively the project\
+            (and NFTs in its entirety) was not successful, we are still proud\
+            of the work we did and what we accomplished.",
             body2:
-            "Adipiscing vitae proin sagittis nisl rhoncus.\
-            Id porta nibh venenatis cras sed felis. Suspendisse interdum consectetur libero id faucibus nisl tincidunt.\
-            Interdum consectetur libero id faucibus nisl tincidunt eget nullam."
+            "Bub the Bandit reflects our aspirations of a technology we believe\
+            to have significant potential. We saw NFTs as an interesting fusion\
+            of art and technology and as a way to generate curiosity for blockchain."
         },
         project2:{
             title:"Inanimate Quiz",
             body1:
-            "Inanimate is a Lorem ipsum dolor sit amet, consectetur adipiscing elit,\
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In est ante in nibh mauris.\
-            In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.\
-            Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit.",
+            "This is our take on a personality quiz but with personality.\
+            You’ve taken personality quizzes before, you know the deal,\
+            but have you ever wanted to be a chicken sandwich? This quiz\
+            will tell you who and more importantly what you really are.",
             body2:
-            "Adipiscing vitae proin sagittis nisl rhoncus.\
-            Id porta nibh venenatis cras sed felis. Suspendisse interdum consectetur libero id faucibus nisl tincidunt.\
-            Interdum consectetur libero id faucibus nisl tincidunt eget nullam."
+            "A fun project we decided to make in our free time.\
+            Though cute and quirky on the surface some real work\
+            went into figuring out exactly how to word the questions/answers\
+            and the logic behind assigning a personality to the user."
         },
         project3:{
             title:"NA",
