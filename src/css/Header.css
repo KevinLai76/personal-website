@@ -1,7 +1,5 @@
 .header-content {
     width: 100%;
-    padding-top: 1em;
-    padding-left: 2em;
     border-bottom: 1px solid #2A2A2A;
     background-color: #1F1F1F;
 }
@@ -11,12 +9,17 @@
     justify-content: flex-start;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    font-size: 14px;
-    letter-spacing: -1px;
 }
 
 .main-logo {
-    width: 5%;
+    width: 65px;
+    padding-left: 2em;
+}
+
+.name-logo {
+    padding-top: 2.5em;
+    font-size: 11.5px;
+    letter-spacing: -1px;
 }
 
 /* research if it's possible to cross reference css files

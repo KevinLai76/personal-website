@@ -1,6 +1,7 @@
 .bio-content{
     display: flex;
     flex-direction: column;
+    height: 400px
     /* justify-content: center; */
     /* width: 100%; */
 }
@@ -45,7 +46,7 @@
 
 .bio-content-text-container {
     border-left: 1px solid #2A2A2A;
-    /* width: 75%; */
+    /* width: 550px; */
     /* margin: auto; */
     /* margin-left: 0; */
 }
@@ -81,6 +82,14 @@ p {
         font-size: calc(11.5px + 4.5 * ((100vw - 360px)/ 640));
     }
 
+    /* below code for logo responsiveness */
+    .name-logo{
+        font-size: calc(11.5px + 4.5 * ((100vw - 360px)/ 640));
+    }
+
+    .main-logo{
+        width: calc(65px + 10 * ((100vw - 360px)/ 640));
+    }
 
 }
 
@@ -91,7 +100,8 @@ p {
     }
 
     .bio-content-text-container{
-        width: 65%
+        /* width: 65% */
+        width: 560px;
     }
 
     .bio-title-hey{
@@ -99,5 +109,14 @@ p {
     }
     p{
         font-size: 16px;
+    }
+
+    /* below code for logo responsiveness */
+    .name-logo{
+        font-size: 16px
+    }
+
+    .main-logo{
+        width: 75px
     }
 }

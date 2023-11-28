@@ -1,6 +1,7 @@
 .project-content{
     display: flex;
     flex-direction: column;
+    height: 400px;
     /* justify-content: center; */
     /* width: 100%; */
 }
@@ -70,6 +71,7 @@
 
     .project-content-text-container{
         width: 75%;
+        height: 290px;
         /* width: fit-content; */
     }
 
@@ -88,7 +90,8 @@
     }
 
     .project-content-text-container{
-        width: 65%
+        /* width: 65% */
+        width: 560px;
     }
 
     .project-title-bub{

@@ -6,10 +6,12 @@ function Header() {
     return(
         <div className= "header-content">
             <div className= "header-logo">
-                {/* <div className="main-logo">
+                <div className="main-logo">
                     <Logo />
-                </div> */}
-                <p>Kevin Lai</p>
+                </div>
+                <div className="name-logo">
+                    Kevin Lai
+                </div>
             </div>
         </div>
     )
