@@ -4,6 +4,7 @@
   color: #CCCCCC;
   /* text-align: center; */
   margin: auto;
+  overflow: scroll;
 }
 
 .app-header {
