@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 3em;
+    /* padding-top: 3em; */
     row-gap: 2em;
     width: 100%;
 }
@@ -38,7 +38,7 @@ button:hover{
     color: white;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px) {    
     button{
         font-size: calc(11.5px + 4.5 * ((100vw - 360px)/ 640));
     }

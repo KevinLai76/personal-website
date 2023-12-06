@@ -6,7 +6,7 @@ function Projects() {
 
     const [displayProject, setDisplayProject] = useState("project1")
     const bubLink = <a style={{color: "inherit"}} href="https://www.bubthebandit.com/">Bub The Bandit</a>
-
+    const inanimateesLink = <a style={{color: "inherit"}} href="https://www.inanimatees.com/">Inanimatees</a>
     const text = {
         project1:{
             title: bubLink,
@@ -19,10 +19,11 @@ function Projects() {
             body2:
             "Bub the Bandit reflects our aspirations of a technology we believe\
             to have significant potential. We saw NFTs as an interesting fusion\
-            of art and technology and as a way to generate curiosity for blockchain."
+            of art and technology and as a way to generate curiosity for blockchain.",
+            link: bubLink
         },
         project2:{
-            title:"Inanimate Quiz",
+            title: inanimateesLink,
             body1:
             "This is our take on a personality quiz but with personality.\
             You’ve taken personality quizzes before, you know the deal,\
@@ -32,7 +33,8 @@ function Projects() {
             "A fun project we decided to make in our free time.\
             Though cute and quirky on the surface some real work\
             went into figuring out exactly how to word the questions/answers\
-            and the logic behind assigning a personality to the user."
+            and the logic behind assigning a personality to the user.",
+            link: inanimateesLink
         },
         project3:{
             title:"NA",
@@ -75,7 +77,9 @@ function Projects() {
                     {text[displayProject].body1}
                 </p>
                 <p className="project-content-text-message-2">
-                    {text[displayProject].body2}
+                    {text[displayProject].body2}<br/>
+                    <br/>
+                    {text[displayProject].link}
                 </p>
             </span>
             <div className="pagination">

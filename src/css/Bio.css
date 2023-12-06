@@ -2,8 +2,6 @@
     display: flex;
     flex-direction: column;
     height: 400px
-    /* justify-content: center; */
-    /* width: 100%; */
 }
 
 .bio-title {
@@ -65,14 +63,18 @@ p {
 } */
 
 @media screen and (min-width: 360px) {
+    .bio-content{
+        display: flex;
+        flex-direction: column;
+        height: 475px
+    }
+    
     .bio-title{
-        /* width: 75%; */
         width: fit-content;
     }
 
     .bio-content-text-container{
         width: 75%;
-        /* width: fit-content; */
     }
 
     .bio-title-hey{
@@ -94,13 +96,17 @@ p {
 }
 
 @media screen and (min-width: 1000px) {
+    .bio-content{
+        display: flex;
+        flex-direction: column;
+        height: 400px
+    }
+    
     .bio-title{
-        /* width: 65%; */
         width: fit-content;
     }
 
     .bio-content-text-container{
-        /* width: 65% */
         width: 560px;
     }
 
